@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91F7E5C71BFDD10500A73430 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F7E5C61BFDD10500A73430 /* main.m */; };
+		91F7E5CA1BFDD10500A73430 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F7E5C91BFDD10500A73430 /* AppDelegate.m */; };
+		91F7E5CD1BFDD10500A73430 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F7E5CC1BFDD10500A73430 /* ViewController.m */; };
+		91F7E5D01BFDD10500A73430 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91F7E5CE1BFDD10500A73430 /* Main.storyboard */; };
+		91F7E5D21BFDD10600A73430 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91F7E5D11BFDD10600A73430 /* Assets.xcassets */; };
+		91F7E5D51BFDD10600A73430 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91F7E5D31BFDD10600A73430 /* LaunchScreen.storyboard */; };
+		91F7E5E01BFDD10600A73430 /* AACStreamPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F7E5DF1BFDD10600A73430 /* AACStreamPlayerTests.m */; };
+		91F7E5EB1BFDD10600A73430 /* AACStreamPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F7E5EA1BFDD10600A73430 /* AACStreamPlayerUITests.m */; };
+		91F7E5FA1BFDD14E00A73430 /* AudioStreamPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F7E5F91BFDD14E00A73430 /* AudioStreamPlayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91F7E5DC1BFDD10600A73430 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91F7E5BA1BFDD10500A73430 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91F7E5C11BFDD10500A73430;
+			remoteInfo = AACStreamPlayer;
+		};
+		91F7E5E71BFDD10600A73430 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91F7E5BA1BFDD10500A73430 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91F7E5C11BFDD10500A73430;
+			remoteInfo = AACStreamPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91F7E5C21BFDD10500A73430 /* AACStreamPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AACStreamPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91F7E5C61BFDD10500A73430 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91F7E5C81BFDD10500A73430 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		91F7E5C91BFDD10500A73430 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		91F7E5CB1BFDD10500A73430 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		91F7E5CC1BFDD10500A73430 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		91F7E5CF1BFDD10500A73430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91F7E5D11BFDD10600A73430 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91F7E5D41BFDD10600A73430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91F7E5D61BFDD10600A73430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91F7E5DB1BFDD10600A73430 /* AACStreamPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AACStreamPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91F7E5DF1BFDD10600A73430 /* AACStreamPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AACStreamPlayerTests.m; sourceTree = "<group>"; };
+		91F7E5E11BFDD10600A73430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91F7E5E61BFDD10600A73430 /* AACStreamPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AACStreamPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91F7E5EA1BFDD10600A73430 /* AACStreamPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AACStreamPlayerUITests.m; sourceTree = "<group>"; };
+		91F7E5EC1BFDD10600A73430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91F7E5F81BFDD14D00A73430 /* AudioStreamPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioStreamPlayer.h; sourceTree = "<group>"; };
+		91F7E5F91BFDD14E00A73430 /* AudioStreamPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioStreamPlayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91F7E5BF1BFDD10500A73430 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91F7E5D81BFDD10600A73430 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91F7E5E31BFDD10600A73430 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91F7E5B91BFDD10500A73430 = {
+			isa = PBXGroup;
+			children = (
+				91F7E5C41BFDD10500A73430 /* AACStreamPlayer */,
+				91F7E5DE1BFDD10600A73430 /* AACStreamPlayerTests */,
+				91F7E5E91BFDD10600A73430 /* AACStreamPlayerUITests */,
+				91F7E5C31BFDD10500A73430 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91F7E5C31BFDD10500A73430 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91F7E5C21BFDD10500A73430 /* AACStreamPlayer.app */,
+				91F7E5DB1BFDD10600A73430 /* AACStreamPlayerTests.xctest */,
+				91F7E5E61BFDD10600A73430 /* AACStreamPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91F7E5C41BFDD10500A73430 /* AACStreamPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				91F7E5C81BFDD10500A73430 /* AppDelegate.h */,
+				91F7E5C91BFDD10500A73430 /* AppDelegate.m */,
+				91F7E5CB1BFDD10500A73430 /* ViewController.h */,
+				91F7E5CC1BFDD10500A73430 /* ViewController.m */,
+				91F7E5CE1BFDD10500A73430 /* Main.storyboard */,
+				91F7E5D11BFDD10600A73430 /* Assets.xcassets */,
+				91F7E5D31BFDD10600A73430 /* LaunchScreen.storyboard */,
+				91F7E5D61BFDD10600A73430 /* Info.plist */,
+				91F7E5C51BFDD10500A73430 /* Supporting Files */,
+				91F7E5F81BFDD14D00A73430 /* AudioStreamPlayer.h */,
+				91F7E5F91BFDD14E00A73430 /* AudioStreamPlayer.m */,
+			);
+			path = AACStreamPlayer;
+			sourceTree = "<group>";
+		};
+		91F7E5C51BFDD10500A73430 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91F7E5C61BFDD10500A73430 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91F7E5DE1BFDD10600A73430 /* AACStreamPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				91F7E5DF1BFDD10600A73430 /* AACStreamPlayerTests.m */,
+				91F7E5E11BFDD10600A73430 /* Info.plist */,
+			);
+			path = AACStreamPlayerTests;
+			sourceTree = "<group>";
+		};
+		91F7E5E91BFDD10600A73430 /* AACStreamPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91F7E5EA1BFDD10600A73430 /* AACStreamPlayerUITests.m */,
+				91F7E5EC1BFDD10600A73430 /* Info.plist */,
+			);
+			path = AACStreamPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91F7E5C11BFDD10500A73430 /* AACStreamPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91F7E5EF1BFDD10600A73430 /* Build configuration list for PBXNativeTarget "AACStreamPlayer" */;
+			buildPhases = (
+				91F7E5BE1BFDD10500A73430 /* Sources */,
+				91F7E5BF1BFDD10500A73430 /* Frameworks */,
+				91F7E5C01BFDD10500A73430 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AACStreamPlayer;
+			productName = AACStreamPlayer;
+			productReference = 91F7E5C21BFDD10500A73430 /* AACStreamPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91F7E5DA1BFDD10600A73430 /* AACStreamPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91F7E5F21BFDD10600A73430 /* Build configuration list for PBXNativeTarget "AACStreamPlayerTests" */;
+			buildPhases = (
+				91F7E5D71BFDD10600A73430 /* Sources */,
+				91F7E5D81BFDD10600A73430 /* Frameworks */,
+				91F7E5D91BFDD10600A73430 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91F7E5DD1BFDD10600A73430 /* PBXTargetDependency */,
+			);
+			name = AACStreamPlayerTests;
+			productName = AACStreamPlayerTests;
+			productReference = 91F7E5DB1BFDD10600A73430 /* AACStreamPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91F7E5E51BFDD10600A73430 /* AACStreamPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91F7E5F51BFDD10600A73430 /* Build configuration list for PBXNativeTarget "AACStreamPlayerUITests" */;
+			buildPhases = (
+				91F7E5E21BFDD10600A73430 /* Sources */,
+				91F7E5E31BFDD10600A73430 /* Frameworks */,
+				91F7E5E41BFDD10600A73430 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91F7E5E81BFDD10600A73430 /* PBXTargetDependency */,
+			);
+			name = AACStreamPlayerUITests;
+			productName = AACStreamPlayerUITests;
+			productReference = 91F7E5E61BFDD10600A73430 /* AACStreamPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91F7E5BA1BFDD10500A73430 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = annidyfeng;
+				TargetAttributes = {
+					91F7E5C11BFDD10500A73430 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = G27295UV33;
+					};
+					91F7E5DA1BFDD10600A73430 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = G27295UV33;
+						TestTargetID = 91F7E5C11BFDD10500A73430;
+					};
+					91F7E5E51BFDD10600A73430 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = G27295UV33;
+						TestTargetID = 91F7E5C11BFDD10500A73430;
+					};
+				};
+			};
+			buildConfigurationList = 91F7E5BD1BFDD10500A73430 /* Build configuration list for PBXProject "AACStreamPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91F7E5B91BFDD10500A73430;
+			productRefGroup = 91F7E5C31BFDD10500A73430 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91F7E5C11BFDD10500A73430 /* AACStreamPlayer */,
+				91F7E5DA1BFDD10600A73430 /* AACStreamPlayerTests */,
+				91F7E5E51BFDD10600A73430 /* AACStreamPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91F7E5C01BFDD10500A73430 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F7E5D51BFDD10600A73430 /* LaunchScreen.storyboard in Resources */,
+				91F7E5D21BFDD10600A73430 /* Assets.xcassets in Resources */,
+				91F7E5D01BFDD10500A73430 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91F7E5D91BFDD10600A73430 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91F7E5E41BFDD10600A73430 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91F7E5BE1BFDD10500A73430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F7E5CD1BFDD10500A73430 /* ViewController.m in Sources */,
+				91F7E5FA1BFDD14E00A73430 /* AudioStreamPlayer.m in Sources */,
+				91F7E5CA1BFDD10500A73430 /* AppDelegate.m in Sources */,
+				91F7E5C71BFDD10500A73430 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91F7E5D71BFDD10600A73430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F7E5E01BFDD10600A73430 /* AACStreamPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91F7E5E21BFDD10600A73430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F7E5EB1BFDD10600A73430 /* AACStreamPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91F7E5DD1BFDD10600A73430 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91F7E5C11BFDD10500A73430 /* AACStreamPlayer */;
+			targetProxy = 91F7E5DC1BFDD10600A73430 /* PBXContainerItemProxy */;
+		};
+		91F7E5E81BFDD10600A73430 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91F7E5C11BFDD10500A73430 /* AACStreamPlayer */;
+			targetProxy = 91F7E5E71BFDD10600A73430 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91F7E5CE1BFDD10500A73430 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91F7E5CF1BFDD10500A73430 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91F7E5D31BFDD10600A73430 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91F7E5D41BFDD10600A73430 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91F7E5ED1BFDD10600A73430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		91F7E5EE1BFDD10600A73430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91F7E5F01BFDD10600A73430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = AACStreamPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.annidy.test.AACStreamPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		91F7E5F11BFDD10600A73430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = AACStreamPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.annidy.test.AACStreamPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		91F7E5F31BFDD10600A73430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AACStreamPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.annidy.test.AACStreamPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AACStreamPlayer.app/AACStreamPlayer";
+			};
+			name = Debug;
+		};
+		91F7E5F41BFDD10600A73430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AACStreamPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.annidy.test.AACStreamPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AACStreamPlayer.app/AACStreamPlayer";
+			};
+			name = Release;
+		};
+		91F7E5F61BFDD10600A73430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AACStreamPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.annidy.test.AACStreamPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AACStreamPlayer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		91F7E5F71BFDD10600A73430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AACStreamPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.annidy.test.AACStreamPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AACStreamPlayer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91F7E5BD1BFDD10500A73430 /* Build configuration list for PBXProject "AACStreamPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91F7E5ED1BFDD10600A73430 /* Debug */,
+				91F7E5EE1BFDD10600A73430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91F7E5EF1BFDD10600A73430 /* Build configuration list for PBXNativeTarget "AACStreamPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91F7E5F01BFDD10600A73430 /* Debug */,
+				91F7E5F11BFDD10600A73430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91F7E5F21BFDD10600A73430 /* Build configuration list for PBXNativeTarget "AACStreamPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91F7E5F31BFDD10600A73430 /* Debug */,
+				91F7E5F41BFDD10600A73430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91F7E5F51BFDD10600A73430 /* Build configuration list for PBXNativeTarget "AACStreamPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91F7E5F61BFDD10600A73430 /* Debug */,
+				91F7E5F71BFDD10600A73430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91F7E5BA1BFDD10500A73430 /* Project object */;
+}
